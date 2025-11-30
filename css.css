@@ -27,13 +27,14 @@ div.e {
  position:relative;
 }
 .profile {
+  position: relative;
+  left: 35vw;
+  bottom: 1vw;
   border-radius: 50%;
-  float:left;
-  width: 180px;
-  height: 180px;
-  position:relative; left: 680px; bottom: 15px;
+  float: left;
+  max-width: 10%;
+  height: auto;
 }
-
 div.links {
   display: inline-block; 
   position: relative; 
