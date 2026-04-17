@@ -1,0 +1,17 @@
+html {
+    text-align: center;
+}
+
+.blog {
+    max-width: 1200px;
+    display: inline-block;
+}
+
+.blog h1 {
+    font-size: clamp(1.5rem, 5vw, 3.5rem);
+    margin-bottom: 20px;
+}
+
+.blog p {
+    font-size: clamp(1rem, 1vw, 1.2rem)
+}
