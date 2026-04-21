@@ -15,7 +15,7 @@ html {
 
 body {
     color: white;
-    background-image: linear-gradient(to right bottom, #28084d, #0a2e28);
+    background-image: linear-gradient(to right bottom, #28084d, #0a232e);
     font-family: "Segoe UI", sans-serif;
     font-weight: 400;
     min-height: 100vh;
@@ -108,8 +108,8 @@ a:visited {
 }
 
 .profile-text h1 {
-    font-size: clamp(3rem, 8vw, 6rem);
-    margin-bottom: 10px;
+    font-size: clamp(3.7rem, 8vw, 6rem);
+    padding-bottom: 10px;
 }
 
 .profile-text .tagline {
@@ -127,7 +127,7 @@ a:visited {
 }
 
 .video-section {
-    margin: 40px 0;
+    margin: 20px 0;
 }
 
 .video-section h2 {
@@ -195,30 +195,40 @@ div.album-player {
 @media (max-width: 768px) {
     .profile-section {
         flex-direction: column;
-        gap: 20px;
+        gap: 5px;
     }
     .profile {
         width: 120px;
         height: 120px;
     }
     .links {
-        padding: 15px 0;
+        padding-top: 10px;
     }
     .video-section {
-        margin: 30px 0;
+        margin: 0px 0;
     }
     .about-section {
-        margin: 40px auto;
-        padding: 30px 15px;
+        margin: 30px auto;
+        padding-top: 0px;
+        max-width: 92vw;
+    }
+    .wrapper {
+        padding-top: 10px;
     }
 }
 
 @media (max-width: 480px) {
     .profile {
-        width: 100px;
-        height: 100px;
+        width: 120px;
+        height: 120px;
     }
     .content {
-        padding: 15px;
+        padding: 0px;
+    }
+    .about-section {
+        max-width: 92vw;
+    }
+    .wrapper {
+        padding-top: 10px;
     }
 }
