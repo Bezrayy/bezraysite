@@ -9,7 +9,6 @@
 
 .blog h1 {
     font-size: clamp(1.5rem, 4vw, 3rem);
-    margin-bottom: 5px;
     text-align: center;
 }
 
@@ -22,6 +21,24 @@
 .blog p {
     font-size: clamp(1rem, 1.1vw, 1.2rem);
     margin-bottom: 1em;
+}
+
+.footer p {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+/* stuff for list (blogs.htm) */
+.blog-list {
+    padding-top: 2vw;
+}
+
+.blog-list h1 {
+    font-size: clamp(3rem, 5vw, 8rem);
+    padding-bottom: 1vw;
+}
+.blog-list h2 {
+    font-size: clamp(1.25rem, 1.4vw, 1.8rem);
 }
 
 @media (max-width: 1250px) {
