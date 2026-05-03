@@ -35,10 +35,11 @@
 
 .blog-list h1 {
     font-size: clamp(3rem, 5vw, 8rem);
-    padding-bottom: 1vw;
+    padding-bottom: 2vw;
 }
 .blog-list h2 {
     font-size: clamp(1.25rem, 1.4vw, 1.8rem);
+    margin-bottom: 0.67em;
 }
 
 @media (max-width: 1250px) {
