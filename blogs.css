@@ -23,6 +23,10 @@
     margin-bottom: 1em;
 }
 
+.giscus {
+    max-width: 1200px;
+}
+
 .footer p {
     margin-top: 50px;
     margin-bottom: 20px;
@@ -44,6 +48,9 @@
 
 @media (max-width: 1250px) {
     .blog {
+        max-width: 92vw;
+    }
+    .giscus {
         max-width: 92vw;
     }
 }
