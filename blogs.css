@@ -1,9 +1,8 @@
 .blog {
     max-width: 1200px;
     padding-top: 5vw;
-    display: inline-block;
-    align-items: center;
-    justify-content: center;
+    display: block;
+    margin: 0 auto;
     text-align: left;
 }
 
@@ -21,13 +20,6 @@
 .blog p {
     font-size: clamp(1rem, 1.1vw, 1.2rem);
     margin-bottom: 1em;
-}
-
-.giscus-div {
-    max-width: 1200px;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
 }
 
 .giscus, /* trying to hijack giscus width because it wont play nice */
