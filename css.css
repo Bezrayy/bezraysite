@@ -113,11 +113,6 @@ a:visited {
     margin-bottom: 10px;
 }
 
-.profile-text .tagline {
-    font-size: clamp(1rem, 3vw, 1.5rem);
-    opacity: 0.9;
-}
-
 
 /* Content Section */
 
@@ -175,8 +170,7 @@ div.album-player {
 /* About Section */
 
 .about-section {
-    margin: 60px auto;
-    padding-top: 20px;
+    margin: 3vw auto;
     max-width: 1000px;
 }
 
@@ -197,11 +191,11 @@ div.album-player {
 @media (max-width: 768px) {
     .profile-section {
         flex-direction: column;
-        gap: 10px;
+        gap: 0px;
     }
     .profile {
         width: 120px;
-        height: 120px;
+        height: 100px;
     }
     .links {
         padding: 15px 0;
@@ -210,7 +204,6 @@ div.album-player {
         margin: 0px;
     }
     .about-section {
-        margin: 40px auto;
         padding: 0px;
         max-width: 90vw;
     }
